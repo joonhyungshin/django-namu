@@ -5,9 +5,6 @@ description = "A Django-based wiki software inspired by openNAMU"
 authors = ["Joonhyung Shin <joon46551@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [
-    { include = "namu", from = "src" },
-]
 include = [
     { path = "tests", format = "sdist" }
 ]
